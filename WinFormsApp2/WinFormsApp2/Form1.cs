@@ -3,6 +3,8 @@ namespace WinFormsApp2
     public partial class Form1 : Form
     {
         float result = 0, x = 0, y = 0;
+        bool xbool = false;
+        bool ybool = false;
         public Form1()
         {
             InitializeComponent();
@@ -65,19 +67,17 @@ namespace WinFormsApp2
 
         private void OK_Click(object sender, EventArgs e)
         {
-            if (X.Text == "" || Y.Text == "")
+
+            if (float.TryParse(X.Text, out x) && float.TryParse(Y.Text, out y))
             {
-                MessageBox.Show("Pls input a number!!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-            else
-            {
-                x = Convert.ToInt32(X.Text);
-                y = Convert.ToInt32(Y.Text);
+                x = float.Parse(X.Text);
+                y = float.Parse(Y.Text);
                 if (divide.BackColor == Color.Gray)
                 {
                     if (y == 0)
                     {
                         MessageBox.Show("Can't divide by 0\nPlease try again.");
+                        Calculate.Text = "Error";
                     }
                     else
                     {
@@ -98,32 +98,32 @@ namespace WinFormsApp2
                 else if (sum.BackColor == Color.Gray)
                 {
                     result = x + y;
-                    Calculate.Text = result.ToString();
-                }
+                    Calculate.Text = result.ToString();                }
                 else
                 {
-                    result = 0;
-                    Calculate.Text = "Choose a method!!";
+                    MessageBox.Show("Please choose some method", "Result", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
                 }
+            }
+            else
+            {
+                Calculate.Text = "Error";
+                MessageBox.Show("Pls input a number!!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
         private void Show_Click(object sender, EventArgs e)
         {
-            
-            if (X.Text == "" || Y.Text == "")
+
+            if (float.TryParse(X.Text, out x) && float.TryParse(Y.Text, out y))
             {
-                MessageBox.Show("Pls input a number!!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-            else
-            {
-                x = Convert.ToInt32(X.Text);
-                y = Convert.ToInt32(Y.Text);
+                x = float.Parse(X.Text);
+                y = float.Parse(Y.Text);
                 if (divide.BackColor == Color.Gray)
                 {
                     if (y == 0)
                     {
                         MessageBox.Show("Can't divide by 0\nPlease try again.");
+                        Calculate.Text = "Error";
                     }
                     else
                     {
@@ -155,6 +155,88 @@ namespace WinFormsApp2
                     MessageBox.Show("Please choose some method", "Result", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
                 }
             }
+            else
+            {
+                Calculate.Text = "Error";
+                MessageBox.Show("Pls input a number!!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void X_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar >= 48 && e.KeyChar <= 57) || (e.KeyChar == 8) || (e.KeyChar == 45) || (e.KeyChar == 46))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void Y_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar >= 48 && e.KeyChar <= 57) || (e.KeyChar == 8) || (e.KeyChar == 45) || (e.KeyChar == 46))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void X_TextChanged(object sender, EventArgs e)
+        {
+            if (X.Text != "")
+            {
+                xbool = true;
+                Clear.Enabled = true;
+            }
+            else
+            {
+                xbool = false;
+                Clear.Enabled = false;
+            }
+            if (xbool == true && ybool == true)
+            {
+                OK.Enabled = true;
+                Show.Enabled = true;
+            }
+            else
+            {
+                OK.Enabled = false;
+                Show.Enabled = false;
+            }
+        }
+
+        private void Y_TextChanged(object sender, EventArgs e)
+        {
+            if (Y.Text != "")
+            {
+                ybool = true;
+                Clear.Enabled = true;
+            }
+            else
+            {
+                ybool = false;
+                Clear.Enabled = false;
+            }
+            if (xbool == true && ybool == true)
+            {
+                OK.Enabled = true;
+                Show.Enabled = true;
+            }
+            else
+            {
+                OK.Enabled = false;
+                Show.Enabled = false;
+            }
+        }
+
+        private void Calculate_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
         }
     }
 }
