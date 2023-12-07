@@ -1,0 +1,32 @@
+C:\Users\User\source\repos\WinCon\WinCon\bin\Debug\net6.0-windows\WinCon.exe
+C:\Users\User\source\repos\WinCon\WinCon\bin\Debug\net6.0-windows\WinCon.deps.json
+C:\Users\User\source\repos\WinCon\WinCon\bin\Debug\net6.0-windows\WinCon.runtimeconfig.json
+C:\Users\User\source\repos\WinCon\WinCon\bin\Debug\net6.0-windows\WinCon.dll
+C:\Users\User\source\repos\WinCon\WinCon\bin\Debug\net6.0-windows\WinCon.pdb
+C:\Users\User\source\repos\WinCon\WinCon\obj\Debug\net6.0-windows\WinCon.Form1.resources
+C:\Users\User\source\repos\WinCon\WinCon\obj\Debug\net6.0-windows\WinCon.csproj.GenerateResource.cache
+C:\Users\User\source\repos\WinCon\WinCon\obj\Debug\net6.0-windows\WinCon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\WinCon\WinCon\obj\Debug\net6.0-windows\WinCon.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\WinCon\WinCon\obj\Debug\net6.0-windows\WinCon.AssemblyInfo.cs
+C:\Users\User\source\repos\WinCon\WinCon\obj\Debug\net6.0-windows\WinCon.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\WinCon\WinCon\obj\Debug\net6.0-windows\WinCon.dll
+C:\Users\User\source\repos\WinCon\WinCon\obj\Debug\net6.0-windows\refint\WinCon.dll
+C:\Users\User\source\repos\WinCon\WinCon\obj\Debug\net6.0-windows\WinCon.pdb
+C:\Users\User\source\repos\WinCon\WinCon\obj\Debug\net6.0-windows\WinCon.genruntimeconfig.cache
+C:\Users\User\source\repos\WinCon\WinCon\obj\Debug\net6.0-windows\ref\WinCon.dll
+C:\Users\User\Desktop\New folder\WinCon\bin\Debug\net6.0-windows\WinCon.exe
+C:\Users\User\Desktop\New folder\WinCon\bin\Debug\net6.0-windows\WinCon.deps.json
+C:\Users\User\Desktop\New folder\WinCon\bin\Debug\net6.0-windows\WinCon.runtimeconfig.json
+C:\Users\User\Desktop\New folder\WinCon\bin\Debug\net6.0-windows\WinCon.dll
+C:\Users\User\Desktop\New folder\WinCon\bin\Debug\net6.0-windows\WinCon.pdb
+C:\Users\User\Desktop\New folder\WinCon\obj\Debug\net6.0-windows\WinCon.Form1.resources
+C:\Users\User\Desktop\New folder\WinCon\obj\Debug\net6.0-windows\WinCon.csproj.GenerateResource.cache
+C:\Users\User\Desktop\New folder\WinCon\obj\Debug\net6.0-windows\WinCon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\New folder\WinCon\obj\Debug\net6.0-windows\WinCon.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\New folder\WinCon\obj\Debug\net6.0-windows\WinCon.AssemblyInfo.cs
+C:\Users\User\Desktop\New folder\WinCon\obj\Debug\net6.0-windows\WinCon.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\New folder\WinCon\obj\Debug\net6.0-windows\WinCon.dll
+C:\Users\User\Desktop\New folder\WinCon\obj\Debug\net6.0-windows\refint\WinCon.dll
+C:\Users\User\Desktop\New folder\WinCon\obj\Debug\net6.0-windows\WinCon.pdb
+C:\Users\User\Desktop\New folder\WinCon\obj\Debug\net6.0-windows\WinCon.genruntimeconfig.cache
+C:\Users\User\Desktop\New folder\WinCon\obj\Debug\net6.0-windows\ref\WinCon.dll
