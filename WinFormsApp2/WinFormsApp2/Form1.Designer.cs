@@ -86,14 +86,11 @@
             // 
             // X
             // 
-            X.BorderStyle = BorderStyle.FixedSingle;
             X.Font = new Font("Segoe UI Symbol", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             X.Location = new Point(200, 120);
             X.Name = "X";
             X.Size = new Size(304, 33);
             X.TabIndex = 4;
-            X.TextChanged += X_TextChanged;
-            X.KeyPress += X_KeyPress;
             // 
             // Y
             // 
@@ -102,8 +99,6 @@
             Y.Name = "Y";
             Y.Size = new Size(304, 33);
             Y.TabIndex = 5;
-            Y.TextChanged += Y_TextChanged;
-            Y.KeyPress += Y_KeyPress;
             // 
             // Calculate
             // 
@@ -112,12 +107,11 @@
             Calculate.Name = "Calculate";
             Calculate.Size = new Size(304, 33);
             Calculate.TabIndex = 6;
-            Calculate.KeyPress += Calculate_KeyPress;
             // 
             // sum
             // 
             sum.Font = new Font("Segoe UI Symbol", 26.25F, FontStyle.Bold, GraphicsUnit.Point);
-            sum.Location = new Point(547, 73);
+            sum.Location = new Point(528, 72);
             sum.Name = "sum";
             sum.Size = new Size(80, 48);
             sum.TabIndex = 7;
@@ -128,7 +122,7 @@
             // minus
             // 
             minus.Font = new Font("Segoe UI Symbol", 26.25F, FontStyle.Bold, GraphicsUnit.Point);
-            minus.Location = new Point(547, 137);
+            minus.Location = new Point(528, 136);
             minus.Name = "minus";
             minus.Size = new Size(80, 48);
             minus.TabIndex = 8;
@@ -139,7 +133,7 @@
             // multiply
             // 
             multiply.Font = new Font("Segoe UI Symbol", 26.25F, FontStyle.Bold, GraphicsUnit.Point);
-            multiply.Location = new Point(547, 201);
+            multiply.Location = new Point(528, 200);
             multiply.Name = "multiply";
             multiply.Size = new Size(80, 48);
             multiply.TabIndex = 9;
@@ -150,7 +144,7 @@
             // divide
             // 
             divide.Font = new Font("Segoe UI Symbol", 26.25F, FontStyle.Bold, GraphicsUnit.Point);
-            divide.Location = new Point(547, 265);
+            divide.Location = new Point(528, 264);
             divide.Name = "divide";
             divide.Size = new Size(80, 48);
             divide.TabIndex = 10;
@@ -160,7 +154,6 @@
             // 
             // OK
             // 
-            OK.Enabled = false;
             OK.Font = new Font("Segoe UI Symbol", 26.25F, FontStyle.Bold, GraphicsUnit.Point);
             OK.Location = new Point(104, 352);
             OK.Name = "OK";
@@ -172,7 +165,6 @@
             // 
             // Clear
             // 
-            Clear.Enabled = false;
             Clear.Font = new Font("Segoe UI Symbol", 26.25F, FontStyle.Bold, GraphicsUnit.Point);
             Clear.Location = new Point(312, 352);
             Clear.Name = "Clear";
@@ -184,7 +176,6 @@
             // 
             // Show
             // 
-            Show.Enabled = false;
             Show.Font = new Font("Segoe UI Symbol", 26.25F, FontStyle.Bold, GraphicsUnit.Point);
             Show.Location = new Point(520, 352);
             Show.Name = "Show";

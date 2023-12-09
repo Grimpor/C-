@@ -1,0 +1,16 @@
+C:\Users\Gimpo\Desktop\VS c#\4 swtich case\4 swtich case\bin\Debug\net6.0-windows\4 swtich case.exe
+C:\Users\Gimpo\Desktop\VS c#\4 swtich case\4 swtich case\bin\Debug\net6.0-windows\4 swtich case.deps.json
+C:\Users\Gimpo\Desktop\VS c#\4 swtich case\4 swtich case\bin\Debug\net6.0-windows\4 swtich case.runtimeconfig.json
+C:\Users\Gimpo\Desktop\VS c#\4 swtich case\4 swtich case\bin\Debug\net6.0-windows\4 swtich case.dll
+C:\Users\Gimpo\Desktop\VS c#\4 swtich case\4 swtich case\bin\Debug\net6.0-windows\4 swtich case.pdb
+C:\Users\Gimpo\Desktop\VS c#\4 swtich case\4 swtich case\obj\Debug\net6.0-windows\_4_swtich_case.Form1.resources
+C:\Users\Gimpo\Desktop\VS c#\4 swtich case\4 swtich case\obj\Debug\net6.0-windows\4 swtich case.csproj.GenerateResource.cache
+C:\Users\Gimpo\Desktop\VS c#\4 swtich case\4 swtich case\obj\Debug\net6.0-windows\4 swtich case.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gimpo\Desktop\VS c#\4 swtich case\4 swtich case\obj\Debug\net6.0-windows\4 swtich case.AssemblyInfoInputs.cache
+C:\Users\Gimpo\Desktop\VS c#\4 swtich case\4 swtich case\obj\Debug\net6.0-windows\4 swtich case.AssemblyInfo.cs
+C:\Users\Gimpo\Desktop\VS c#\4 swtich case\4 swtich case\obj\Debug\net6.0-windows\4 swtich case.csproj.CoreCompileInputs.cache
+C:\Users\Gimpo\Desktop\VS c#\4 swtich case\4 swtich case\obj\Debug\net6.0-windows\4 swtich case.dll
+C:\Users\Gimpo\Desktop\VS c#\4 swtich case\4 swtich case\obj\Debug\net6.0-windows\refint\4 swtich case.dll
+C:\Users\Gimpo\Desktop\VS c#\4 swtich case\4 swtich case\obj\Debug\net6.0-windows\4 swtich case.pdb
+C:\Users\Gimpo\Desktop\VS c#\4 swtich case\4 swtich case\obj\Debug\net6.0-windows\4 swtich case.genruntimeconfig.cache
+C:\Users\Gimpo\Desktop\VS c#\4 swtich case\4 swtich case\obj\Debug\net6.0-windows\ref\4 swtich case.dll
