@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "KHf0Ks7ro/MNH4EvYzZjYbwhuOUHanMZtSot4bNrrOWR/Ak4dsAptuh5n1wtNWjQd6v+A4YLahcS4K7sdjpBGg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gimpo\\Desktop\\VS c#\\Bubble Bee\\Bubble Bee\\Bubble Bee.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gimpo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Gimpo\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Gimpo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Gimpo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}
