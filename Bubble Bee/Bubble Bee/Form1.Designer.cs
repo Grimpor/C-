@@ -56,7 +56,9 @@
             textPassword.Size = new Size(184, 32);
             textPassword.TabIndex = 1;
             textPassword.Text = "Password";
+            textPassword.TextChanged += textPassword_TextChanged;
             textPassword.Enter += textPassword_Enter;
+            textPassword.KeyPress += textPassword_KeyPress;
             // 
             // login
             // 

@@ -49,5 +49,18 @@ namespace Bubble_Bee
                 textPassword.ForeColor = Color.Black;
             }
         }
+
+        private void textPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textPassword_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(e.KeyChar != '*')
+            {
+                e.KeyChar = '*';
+            }
+        }
     }
 }

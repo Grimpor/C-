@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Gimpo\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gimpo\\Desktop\\VS c#\\Bubble Bee\\Bubble Bee\\Bubble Bee.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Bubble Bee\\Bubble Bee\\Bubble Bee.csproj",
       "projectName": "Bubble Bee",
-      "projectPath": "C:\\Users\\Gimpo\\Desktop\\VS c#\\Bubble Bee\\Bubble Bee\\Bubble Bee.csproj",
-      "packagesPath": "C:\\Users\\Gimpo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gimpo\\Desktop\\VS c#\\Bubble Bee\\Bubble Bee\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\Bubble Bee\\Bubble Bee\\Bubble Bee.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Bubble Bee\\Bubble Bee\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Gimpo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -56,24 +56,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.25, 6.0.25]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.25, 6.0.25]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.25, 6.0.25]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.25, 6.0.25]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

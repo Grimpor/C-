@@ -145,10 +145,14 @@ namespace Bubble_Bee
             }
             else
             {
-                Form3 form3 = new Form3();
-                this.Hide();
-                form3.ShowDialog();
-                this.Close();
+                DialogResult result = MessageBox.Show("Confirm your order ?", "Confirming", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                if (result == DialogResult.OK)
+                { 
+                    Form3 form3 = new Form3();
+                    this.Hide();
+                    form3.ShowDialog();
+                    this.Close();
+                }
             }
         }
     }
