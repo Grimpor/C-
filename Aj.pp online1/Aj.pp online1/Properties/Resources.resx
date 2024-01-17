@@ -124,7 +124,34 @@
   <data name="istockphoto-1252767796-612x612-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\istockphoto-1252767796-612x612-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="TOUR360 22 TWIN BOA BOOST GOLF SHOES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOUR360 22 TWIN BOA BOOST GOLF SHOES.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ช้างดาว" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ช้างดาว.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HEAWYN SHOES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HEAWYN SHOES.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nike air dunk jumbo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nike air dunk jumbo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nike Vaporfly 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nike Vaporfly 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SAMBA OG SHOES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SAMBA OG SHOES.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Converse x Wonka Chuck 70 Chocolate Swirl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Converse x Wonka Chuck 70 Chocolate Swirl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nike Air Force 1 07 EasyOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nike Air Force 1 07 EasyOn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shoe tao1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shoe tao1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

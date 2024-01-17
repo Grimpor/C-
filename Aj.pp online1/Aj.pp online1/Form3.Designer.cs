@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -50,7 +51,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(368, 112);
+            label2.Location = new Point(368, 152);
             label2.Name = "label2";
             label2.Size = new Size(43, 29);
             label2.TabIndex = 1;
@@ -60,7 +61,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(216, 208);
+            label3.Location = new Point(216, 248);
             label3.Name = "label3";
             label3.Size = new Size(338, 29);
             label3.TabIndex = 1;
@@ -69,20 +70,20 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(424, 264);
+            label4.Font = new Font("Arial Black", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(464, 296);
             label4.Name = "label4";
-            label4.Size = new Size(83, 29);
+            label4.Size = new Size(117, 38);
             label4.TabIndex = 1;
             label4.Text = "ป.สสท 1";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.Location = new Point(224, 264);
+            label5.Font = new Font("Arial Black", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.Location = new Point(192, 296);
             label5.Name = "label5";
-            label5.Size = new Size(181, 29);
+            label5.Size = new Size(251, 38);
             label5.TabIndex = 1;
             label5.Text = "3661051541140";
             // 
@@ -90,7 +91,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label6.Location = new Point(344, 160);
+            label6.Location = new Point(344, 200);
             label6.Name = "label6";
             label6.Size = new Size(100, 29);
             label6.TabIndex = 1;
@@ -100,6 +101,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(800, 450);
             Controls.Add(label5);
             Controls.Add(label6);
@@ -107,8 +109,9 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form3";
-            Text = "Form3";
+            Text = "Thank you!!";
             Click += Form3_Click;
             ResumeLayout(false);
             PerformLayout();

@@ -17,22 +17,3 @@ C:\Users\Gimpo\Desktop\VS c#\Bubble Bee\Bubble Bee\obj\Debug\net6.0-windows\Bubb
 C:\Users\Gimpo\Desktop\VS c#\Bubble Bee\Bubble Bee\obj\Debug\net6.0-windows\ref\Bubble Bee.dll
 C:\Users\Gimpo\Desktop\VS c#\Bubble Bee\Bubble Bee\obj\Debug\net6.0-windows\Bubble_Bee.Form2.resources
 C:\Users\Gimpo\Desktop\VS c#\Bubble Bee\Bubble Bee\obj\Debug\net6.0-windows\Bubble_Bee.Form3.resources
-C:\Users\User\Desktop\Bubble Bee\Bubble Bee\bin\Debug\net6.0-windows\Bubble Bee.exe
-C:\Users\User\Desktop\Bubble Bee\Bubble Bee\bin\Debug\net6.0-windows\Bubble Bee.deps.json
-C:\Users\User\Desktop\Bubble Bee\Bubble Bee\bin\Debug\net6.0-windows\Bubble Bee.runtimeconfig.json
-C:\Users\User\Desktop\Bubble Bee\Bubble Bee\bin\Debug\net6.0-windows\Bubble Bee.dll
-C:\Users\User\Desktop\Bubble Bee\Bubble Bee\bin\Debug\net6.0-windows\Bubble Bee.pdb
-C:\Users\User\Desktop\Bubble Bee\Bubble Bee\obj\Debug\net6.0-windows\Bubble_Bee.Form1.resources
-C:\Users\User\Desktop\Bubble Bee\Bubble Bee\obj\Debug\net6.0-windows\Bubble_Bee.Form2.resources
-C:\Users\User\Desktop\Bubble Bee\Bubble Bee\obj\Debug\net6.0-windows\Bubble_Bee.Form3.resources
-C:\Users\User\Desktop\Bubble Bee\Bubble Bee\obj\Debug\net6.0-windows\Bubble_Bee.Properties.Resources.resources
-C:\Users\User\Desktop\Bubble Bee\Bubble Bee\obj\Debug\net6.0-windows\Bubble Bee.csproj.GenerateResource.cache
-C:\Users\User\Desktop\Bubble Bee\Bubble Bee\obj\Debug\net6.0-windows\Bubble Bee.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\Desktop\Bubble Bee\Bubble Bee\obj\Debug\net6.0-windows\Bubble Bee.AssemblyInfoInputs.cache
-C:\Users\User\Desktop\Bubble Bee\Bubble Bee\obj\Debug\net6.0-windows\Bubble Bee.AssemblyInfo.cs
-C:\Users\User\Desktop\Bubble Bee\Bubble Bee\obj\Debug\net6.0-windows\Bubble Bee.csproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\Bubble Bee\Bubble Bee\obj\Debug\net6.0-windows\Bubble Bee.dll
-C:\Users\User\Desktop\Bubble Bee\Bubble Bee\obj\Debug\net6.0-windows\refint\Bubble Bee.dll
-C:\Users\User\Desktop\Bubble Bee\Bubble Bee\obj\Debug\net6.0-windows\Bubble Bee.pdb
-C:\Users\User\Desktop\Bubble Bee\Bubble Bee\obj\Debug\net6.0-windows\Bubble Bee.genruntimeconfig.cache
-C:\Users\User\Desktop\Bubble Bee\Bubble Bee\obj\Debug\net6.0-windows\ref\Bubble Bee.dll

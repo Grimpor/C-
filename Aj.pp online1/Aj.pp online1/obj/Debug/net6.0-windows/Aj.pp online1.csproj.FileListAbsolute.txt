@@ -13,7 +13,7 @@ C:\Users\Gimpo\Desktop\VS c#\Aj.pp online1\Aj.pp online1\obj\Debug\net6.0-window
 C:\Users\Gimpo\Desktop\VS c#\Aj.pp online1\Aj.pp online1\obj\Debug\net6.0-windows\Aj.pp online1.pdb
 C:\Users\Gimpo\Desktop\VS c#\Aj.pp online1\Aj.pp online1\obj\Debug\net6.0-windows\Aj.pp online1.genruntimeconfig.cache
 C:\Users\Gimpo\Desktop\VS c#\Aj.pp online1\Aj.pp online1\obj\Debug\net6.0-windows\ref\Aj.pp online1.dll
-C:\Users\Gimpo\Desktop\VS c#\Aj.pp online1\Aj.pp online1\obj\Debug\net6.0-windows\Aj.pp_online1.loginform.resources
 C:\Users\Gimpo\Desktop\VS c#\Aj.pp online1\Aj.pp online1\obj\Debug\net6.0-windows\Aj.pp_online1.Form2.resources
 C:\Users\Gimpo\Desktop\VS c#\Aj.pp online1\Aj.pp online1\obj\Debug\net6.0-windows\Aj.pp_online1.Properties.Resources.resources
 C:\Users\Gimpo\Desktop\VS c#\Aj.pp online1\Aj.pp online1\obj\Debug\net6.0-windows\Aj.pp_online1.Form3.resources
+C:\Users\Gimpo\Desktop\VS c#\Aj.pp online1\Aj.pp online1\obj\Debug\net6.0-windows\Aj.pp_online1.form1.resources

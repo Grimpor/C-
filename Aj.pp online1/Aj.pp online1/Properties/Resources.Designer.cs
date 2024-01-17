@@ -63,6 +63,26 @@ namespace Aj.pp_online1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Converse_x_Wonka_Chuck_70_Chocolate_Swirl {
+            get {
+                object obj = ResourceManager.GetObject("Converse x Wonka Chuck 70 Chocolate Swirl", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HEAWYN_SHOES {
+            get {
+                object obj = ResourceManager.GetObject("HEAWYN SHOES", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image {
             get {
                 object obj = ResourceManager.GetObject("image", resourceCulture);
@@ -86,6 +106,76 @@ namespace Aj.pp_online1.Properties {
         internal static System.Drawing.Bitmap istockphoto_1252767796_612x612_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1252767796-612x612-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nike_air_dunk_jumbo {
+            get {
+                object obj = ResourceManager.GetObject("nike air dunk jumbo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Nike_Air_Force_1_07_EasyOn {
+            get {
+                object obj = ResourceManager.GetObject("Nike Air Force 1 07 EasyOn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Nike_Vaporfly_3 {
+            get {
+                object obj = ResourceManager.GetObject("Nike Vaporfly 3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SAMBA_OG_SHOES {
+            get {
+                object obj = ResourceManager.GetObject("SAMBA OG SHOES", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Shoe_tao1 {
+            get {
+                object obj = ResourceManager.GetObject("Shoe tao1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TOUR360_22_TWIN_BOA_BOOST_GOLF_SHOES {
+            get {
+                object obj = ResourceManager.GetObject("TOUR360 22 TWIN BOA BOOST GOLF SHOES", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ช้างดาว {
+            get {
+                object obj = ResourceManager.GetObject("ช้างดาว", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

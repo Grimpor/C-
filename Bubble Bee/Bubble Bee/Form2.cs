@@ -145,14 +145,15 @@ namespace Bubble_Bee
             }
             else
             {
-                DialogResult result = MessageBox.Show("Confirm your order ?", "Confirming", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
-                if (result == DialogResult.OK)
-                { 
+                DialogResult result = MessageBox.Show("Are you confirm your order?", "Confirm?", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                if (result == DialogResult.OK) 
+                {
                     Form3 form3 = new Form3();
                     this.Hide();
                     form3.ShowDialog();
                     this.Close();
                 }
+                
             }
         }
     }

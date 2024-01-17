@@ -1,6 +1,6 @@
 ﻿namespace Aj.pp_online1
 {
-    partial class Form2
+    partial class form2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,74 +28,67 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form2));
             pictureBox1 = new PictureBox();
             groupBox1 = new GroupBox();
             check1 = new CheckBox();
-            label6 = new Label();
-            label5 = new Label();
-            label4 = new Label();
-            label3 = new Label();
-            label2 = new Label();
+            discount1 = new Label();
+            oldprice1 = new Label();
+            gendershoe1 = new Label();
+            price1 = new Label();
+            label1 = new Label();
             groupBox2 = new GroupBox();
             check2 = new CheckBox();
-            label7 = new Label();
-            label8 = new Label();
-            label9 = new Label();
-            label10 = new Label();
-            label11 = new Label();
+            gendershoe2 = new Label();
+            price2 = new Label();
+            label2 = new Label();
             pictureBox2 = new PictureBox();
             button1 = new Button();
             groupBox3 = new GroupBox();
+            label9 = new Label();
+            discount3 = new Label();
+            oldprice3 = new Label();
             check3 = new CheckBox();
-            label12 = new Label();
-            label13 = new Label();
-            label14 = new Label();
-            label15 = new Label();
-            label16 = new Label();
+            gendershoe3 = new Label();
+            price3 = new Label();
+            label3 = new Label();
             pictureBox3 = new PictureBox();
             groupBox4 = new GroupBox();
             check4 = new CheckBox();
-            label17 = new Label();
-            label18 = new Label();
-            label19 = new Label();
-            label20 = new Label();
-            label21 = new Label();
+            gendershoe4 = new Label();
+            price4 = new Label();
+            label4 = new Label();
             pictureBox4 = new PictureBox();
             groupBox5 = new GroupBox();
             check5 = new CheckBox();
-            label22 = new Label();
-            label23 = new Label();
-            label24 = new Label();
-            label25 = new Label();
-            label26 = new Label();
+            gendershoe5 = new Label();
+            price5 = new Label();
+            label5 = new Label();
             pictureBox5 = new PictureBox();
             groupBox6 = new GroupBox();
             check6 = new CheckBox();
-            label27 = new Label();
-            label28 = new Label();
-            label29 = new Label();
-            label30 = new Label();
-            label31 = new Label();
+            gendershoe6 = new Label();
+            price6 = new Label();
+            label6 = new Label();
             pictureBox6 = new PictureBox();
             groupBox7 = new GroupBox();
+            label10 = new Label();
             check7 = new CheckBox();
-            label32 = new Label();
-            label33 = new Label();
-            label34 = new Label();
-            label35 = new Label();
-            label36 = new Label();
+            discount7 = new Label();
+            oldprice7 = new Label();
+            gendershoe7 = new Label();
+            price7 = new Label();
+            label7 = new Label();
             pictureBox7 = new PictureBox();
             groupBox8 = new GroupBox();
             check8 = new CheckBox();
-            label37 = new Label();
-            label38 = new Label();
-            label39 = new Label();
-            label40 = new Label();
-            label41 = new Label();
+            gendershoe8 = new Label();
+            price8 = new Label();
+            label8 = new Label();
             pictureBox8 = new PictureBox();
             pictureBox9 = new PictureBox();
             Basket = new Label();
+            pictureBox10 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
@@ -113,36 +106,31 @@
             groupBox8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Arial", 21.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(368, 8);
-            label1.Name = "label1";
-            label1.Size = new Size(144, 34);
-            label1.TabIndex = 0;
-            label1.Text = "Shoe Tao";
             // 
             // pictureBox1
             // 
+            pictureBox1.Image = Properties.Resources.nike_air_dunk_jumbo;
             pictureBox1.Location = new Point(8, 24);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(176, 128);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // groupBox1
             // 
+            groupBox1.BackColor = SystemColors.ButtonFace;
             groupBox1.Controls.Add(check1);
-            groupBox1.Controls.Add(label6);
-            groupBox1.Controls.Add(label5);
-            groupBox1.Controls.Add(label4);
-            groupBox1.Controls.Add(label3);
-            groupBox1.Controls.Add(label2);
+            groupBox1.Controls.Add(discount1);
+            groupBox1.Controls.Add(oldprice1);
+            groupBox1.Controls.Add(gendershoe1);
+            groupBox1.Controls.Add(price1);
+            groupBox1.Controls.Add(label1);
             groupBox1.Controls.Add(pictureBox1);
-            groupBox1.Location = new Point(24, 56);
+            groupBox1.Location = new Point(24, 168);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(192, 248);
             groupBox1.TabIndex = 2;
@@ -160,72 +148,71 @@
             check1.UseVisualStyleBackColor = true;
             check1.CheckedChanged += check1_CheckedChanged;
             // 
-            // label6
+            // discount1
             // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.ForeColor = Color.Green;
-            label6.Location = new Point(104, 200);
-            label6.Name = "label6";
-            label6.Size = new Size(49, 16);
-            label6.TabIndex = 6;
-            label6.Text = "ลด 20%";
+            discount1.AutoSize = true;
+            discount1.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            discount1.ForeColor = Color.Green;
+            discount1.Location = new Point(104, 200);
+            discount1.Name = "discount1";
+            discount1.Size = new Size(49, 16);
+            discount1.TabIndex = 6;
+            discount1.Text = "ลด 20%";
             // 
-            // label5
+            // oldprice1
             // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Strikeout, GraphicsUnit.Point);
-            label5.ForeColor = SystemColors.ButtonShadow;
-            label5.Location = new Point(56, 200);
-            label5.Name = "label5";
-            label5.Size = new Size(45, 16);
-            label5.TabIndex = 5;
-            label5.Text = "฿4,900";
+            oldprice1.AutoSize = true;
+            oldprice1.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Strikeout, GraphicsUnit.Point);
+            oldprice1.ForeColor = SystemColors.ButtonShadow;
+            oldprice1.Location = new Point(56, 200);
+            oldprice1.Name = "oldprice1";
+            oldprice1.Size = new Size(45, 16);
+            oldprice1.TabIndex = 5;
+            oldprice1.Text = "฿4,900";
             // 
-            // label4
+            // gendershoe1
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(8, 176);
-            label4.Name = "label4";
-            label4.Size = new Size(63, 15);
-            label4.TabIndex = 4;
-            label4.Text = "รองเท้าผู้ชาย";
+            gendershoe1.AutoSize = true;
+            gendershoe1.Location = new Point(8, 176);
+            gendershoe1.Name = "gendershoe1";
+            gendershoe1.Size = new Size(63, 15);
+            gendershoe1.TabIndex = 4;
+            gendershoe1.Text = "รองเท้าผู้ชาย";
             // 
-            // label3
+            // price1
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(8, 200);
-            label3.Name = "label3";
-            label3.Size = new Size(45, 16);
-            label3.TabIndex = 3;
-            label3.Text = "฿3,919";
+            price1.AutoSize = true;
+            price1.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            price1.Location = new Point(8, 200);
+            price1.Name = "price1";
+            price1.Size = new Size(45, 16);
+            price1.TabIndex = 3;
+            price1.Text = "฿3,919";
             // 
-            // label2
+            // label1
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(8, 160);
-            label2.Name = "label2";
-            label2.Size = new Size(151, 15);
-            label2.TabIndex = 2;
-            label2.Text = "Nike Air Dunk Low Jumbo";
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(8, 160);
+            label1.Name = "label1";
+            label1.Size = new Size(151, 15);
+            label1.TabIndex = 2;
+            label1.Text = "Nike Air Dunk Low Jumbo";
             // 
             // groupBox2
             // 
+            groupBox2.BackColor = SystemColors.ButtonFace;
             groupBox2.Controls.Add(check2);
-            groupBox2.Controls.Add(label7);
-            groupBox2.Controls.Add(label8);
-            groupBox2.Controls.Add(label9);
-            groupBox2.Controls.Add(label10);
-            groupBox2.Controls.Add(label11);
+            groupBox2.Controls.Add(gendershoe2);
+            groupBox2.Controls.Add(price2);
+            groupBox2.Controls.Add(label2);
             groupBox2.Controls.Add(pictureBox2);
-            groupBox2.Location = new Point(232, 56);
+            groupBox2.Location = new Point(232, 168);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(192, 248);
             groupBox2.TabIndex = 2;
             groupBox2.TabStop = false;
-            groupBox2.Text = "Nike(มือ2)";
+            groupBox2.Text = "Adidas(มือ1)";
             // 
             // check2
             // 
@@ -238,62 +225,42 @@
             check2.UseVisualStyleBackColor = true;
             check2.CheckedChanged += check2_CheckedChanged;
             // 
-            // label7
+            // gendershoe2
             // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.ForeColor = Color.Green;
-            label7.Location = new Point(104, 200);
-            label7.Name = "label7";
-            label7.Size = new Size(49, 16);
-            label7.TabIndex = 6;
-            label7.Text = "ลด 20%";
+            gendershoe2.AutoSize = true;
+            gendershoe2.Location = new Point(8, 176);
+            gendershoe2.Name = "gendershoe2";
+            gendershoe2.Size = new Size(67, 15);
+            gendershoe2.TabIndex = 4;
+            gendershoe2.Text = "รองเท้าผู้หญิง";
             // 
-            // label8
+            // price2
             // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Strikeout, GraphicsUnit.Point);
-            label8.ForeColor = SystemColors.ButtonShadow;
-            label8.Location = new Point(56, 200);
-            label8.Name = "label8";
-            label8.Size = new Size(45, 16);
-            label8.TabIndex = 5;
-            label8.Text = "฿4,900";
+            price2.AutoSize = true;
+            price2.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            price2.Location = new Point(8, 200);
+            price2.Name = "price2";
+            price2.Size = new Size(45, 16);
+            price2.TabIndex = 3;
+            price2.Text = "฿3,800";
             // 
-            // label9
+            // label2
             // 
-            label9.AutoSize = true;
-            label9.Location = new Point(8, 176);
-            label9.Name = "label9";
-            label9.Size = new Size(63, 15);
-            label9.TabIndex = 4;
-            label9.Text = "รองเท้าผู้ชาย";
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label10.Location = new Point(8, 200);
-            label10.Name = "label10";
-            label10.Size = new Size(45, 16);
-            label10.TabIndex = 3;
-            label10.Text = "฿3,919";
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label11.Location = new Point(8, 160);
-            label11.Name = "label11";
-            label11.Size = new Size(151, 15);
-            label11.TabIndex = 2;
-            label11.Text = "Nike Air Dunk Low Jumbo";
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(8, 160);
+            label2.Name = "label2";
+            label2.Size = new Size(111, 15);
+            label2.TabIndex = 2;
+            label2.Text = "SAMBA OG SHOES";
             // 
             // pictureBox2
             // 
+            pictureBox2.Image = Properties.Resources.SAMBA_OG_SHOES;
             pictureBox2.Location = new Point(8, 24);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(176, 128);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 1;
             pictureBox2.TabStop = false;
             // 
@@ -302,7 +269,7 @@
             button1.BackColor = Color.Black;
             button1.Font = new Font("Arial Black", 18F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = SystemColors.ButtonFace;
-            button1.Location = new Point(720, 592);
+            button1.Location = new Point(712, 712);
             button1.Name = "button1";
             button1.Size = new Size(120, 56);
             button1.TabIndex = 3;
@@ -312,19 +279,53 @@
             // 
             // groupBox3
             // 
+            groupBox3.BackColor = SystemColors.ButtonFace;
+            groupBox3.Controls.Add(label9);
+            groupBox3.Controls.Add(discount3);
+            groupBox3.Controls.Add(oldprice3);
             groupBox3.Controls.Add(check3);
-            groupBox3.Controls.Add(label12);
-            groupBox3.Controls.Add(label13);
-            groupBox3.Controls.Add(label14);
-            groupBox3.Controls.Add(label15);
-            groupBox3.Controls.Add(label16);
+            groupBox3.Controls.Add(gendershoe3);
+            groupBox3.Controls.Add(price3);
+            groupBox3.Controls.Add(label3);
             groupBox3.Controls.Add(pictureBox3);
-            groupBox3.Location = new Point(440, 56);
+            groupBox3.Location = new Point(440, 168);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new Size(192, 248);
             groupBox3.TabIndex = 2;
             groupBox3.TabStop = false;
-            groupBox3.Text = "Nike(มือ2)";
+            groupBox3.Text = "Converse(มือ2)";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label9.Location = new Point(8, 168);
+            label9.Name = "label9";
+            label9.Size = new Size(105, 15);
+            label9.TabIndex = 11;
+            label9.Text = "“Chocolate Swirl”\r\n";
+            // 
+            // discount3
+            // 
+            discount3.AutoSize = true;
+            discount3.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            discount3.ForeColor = Color.Green;
+            discount3.Location = new Point(104, 200);
+            discount3.Name = "discount3";
+            discount3.Size = new Size(49, 16);
+            discount3.TabIndex = 10;
+            discount3.Text = "ลด 10%";
+            // 
+            // oldprice3
+            // 
+            oldprice3.AutoSize = true;
+            oldprice3.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Strikeout, GraphicsUnit.Point);
+            oldprice3.ForeColor = SystemColors.ButtonShadow;
+            oldprice3.Location = new Point(56, 200);
+            oldprice3.Name = "oldprice3";
+            oldprice3.Size = new Size(45, 16);
+            oldprice3.TabIndex = 9;
+            oldprice3.Text = "฿4,300";
             // 
             // check3
             // 
@@ -337,80 +338,59 @@
             check3.UseVisualStyleBackColor = true;
             check3.CheckedChanged += check3_CheckedChanged;
             // 
-            // label12
+            // gendershoe3
             // 
-            label12.AutoSize = true;
-            label12.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label12.ForeColor = Color.Green;
-            label12.Location = new Point(104, 200);
-            label12.Name = "label12";
-            label12.Size = new Size(49, 16);
-            label12.TabIndex = 6;
-            label12.Text = "ลด 20%";
+            gendershoe3.AutoSize = true;
+            gendershoe3.Location = new Point(8, 184);
+            gendershoe3.Name = "gendershoe3";
+            gendershoe3.Size = new Size(67, 15);
+            gendershoe3.TabIndex = 4;
+            gendershoe3.Text = "รองเท้าผู้หญิง";
             // 
-            // label13
+            // price3
             // 
-            label13.AutoSize = true;
-            label13.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Strikeout, GraphicsUnit.Point);
-            label13.ForeColor = SystemColors.ButtonShadow;
-            label13.Location = new Point(56, 200);
-            label13.Name = "label13";
-            label13.Size = new Size(45, 16);
-            label13.TabIndex = 5;
-            label13.Text = "฿4,900";
+            price3.AutoSize = true;
+            price3.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            price3.Location = new Point(8, 200);
+            price3.Name = "price3";
+            price3.Size = new Size(45, 16);
+            price3.TabIndex = 3;
+            price3.Text = "฿3,870";
             // 
-            // label14
+            // label3
             // 
-            label14.AutoSize = true;
-            label14.Location = new Point(8, 176);
-            label14.Name = "label14";
-            label14.Size = new Size(63, 15);
-            label14.TabIndex = 4;
-            label14.Text = "รองเท้าผู้ชาย";
-            // 
-            // label15
-            // 
-            label15.AutoSize = true;
-            label15.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label15.Location = new Point(8, 200);
-            label15.Name = "label15";
-            label15.Size = new Size(45, 16);
-            label15.TabIndex = 3;
-            label15.Text = "฿3,919";
-            // 
-            // label16
-            // 
-            label16.AutoSize = true;
-            label16.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label16.Location = new Point(8, 160);
-            label16.Name = "label16";
-            label16.Size = new Size(151, 15);
-            label16.TabIndex = 2;
-            label16.Text = "Nike Air Dunk Low Jumbo";
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(8, 152);
+            label3.Name = "label3";
+            label3.Size = new Size(284, 15);
+            label3.TabIndex = 2;
+            label3.Text = "Converse x Wonka Chuck 70       “Chocolate Swirl”";
             // 
             // pictureBox3
             // 
+            pictureBox3.Image = Properties.Resources.Converse_x_Wonka_Chuck_70_Chocolate_Swirl;
             pictureBox3.Location = new Point(8, 24);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(176, 128);
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 1;
             pictureBox3.TabStop = false;
             // 
             // groupBox4
             // 
+            groupBox4.BackColor = SystemColors.ButtonFace;
             groupBox4.Controls.Add(check4);
-            groupBox4.Controls.Add(label17);
-            groupBox4.Controls.Add(label18);
-            groupBox4.Controls.Add(label19);
-            groupBox4.Controls.Add(label20);
-            groupBox4.Controls.Add(label21);
+            groupBox4.Controls.Add(gendershoe4);
+            groupBox4.Controls.Add(price4);
+            groupBox4.Controls.Add(label4);
             groupBox4.Controls.Add(pictureBox4);
-            groupBox4.Location = new Point(648, 56);
+            groupBox4.Location = new Point(648, 168);
             groupBox4.Name = "groupBox4";
             groupBox4.Size = new Size(192, 248);
             groupBox4.TabIndex = 2;
             groupBox4.TabStop = false;
-            groupBox4.Text = "Nike(มือ2)";
+            groupBox4.Text = "Nike(มือ1)";
             // 
             // check4
             // 
@@ -423,80 +403,59 @@
             check4.UseVisualStyleBackColor = true;
             check4.CheckedChanged += check4_CheckedChanged;
             // 
-            // label17
+            // gendershoe4
             // 
-            label17.AutoSize = true;
-            label17.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label17.ForeColor = Color.Green;
-            label17.Location = new Point(104, 200);
-            label17.Name = "label17";
-            label17.Size = new Size(49, 16);
-            label17.TabIndex = 6;
-            label17.Text = "ลด 20%";
+            gendershoe4.AutoSize = true;
+            gendershoe4.Location = new Point(8, 176);
+            gendershoe4.Name = "gendershoe4";
+            gendershoe4.Size = new Size(67, 15);
+            gendershoe4.TabIndex = 4;
+            gendershoe4.Text = "รองเท้าผู้หญิง";
             // 
-            // label18
+            // price4
             // 
-            label18.AutoSize = true;
-            label18.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Strikeout, GraphicsUnit.Point);
-            label18.ForeColor = SystemColors.ButtonShadow;
-            label18.Location = new Point(56, 200);
-            label18.Name = "label18";
-            label18.Size = new Size(45, 16);
-            label18.TabIndex = 5;
-            label18.Text = "฿4,900";
+            price4.AutoSize = true;
+            price4.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            price4.Location = new Point(8, 200);
+            price4.Name = "price4";
+            price4.Size = new Size(45, 16);
+            price4.TabIndex = 3;
+            price4.Text = "฿4,300";
             // 
-            // label19
+            // label4
             // 
-            label19.AutoSize = true;
-            label19.Location = new Point(8, 176);
-            label19.Name = "label19";
-            label19.Size = new Size(63, 15);
-            label19.TabIndex = 4;
-            label19.Text = "รองเท้าผู้ชาย";
-            // 
-            // label20
-            // 
-            label20.AutoSize = true;
-            label20.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label20.Location = new Point(8, 200);
-            label20.Name = "label20";
-            label20.Size = new Size(45, 16);
-            label20.TabIndex = 3;
-            label20.Text = "฿3,919";
-            // 
-            // label21
-            // 
-            label21.AutoSize = true;
-            label21.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label21.Location = new Point(8, 160);
-            label21.Name = "label21";
-            label21.Size = new Size(151, 15);
-            label21.TabIndex = 2;
-            label21.Text = "Nike Air Dunk Low Jumbo";
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(8, 160);
+            label4.Name = "label4";
+            label4.Size = new Size(159, 15);
+            label4.TabIndex = 2;
+            label4.Text = "Nike Air Force 1 '07 EasyOn";
             // 
             // pictureBox4
             // 
+            pictureBox4.Image = Properties.Resources.Nike_Air_Force_1_07_EasyOn;
             pictureBox4.Location = new Point(8, 24);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(176, 128);
+            pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox4.TabIndex = 1;
             pictureBox4.TabStop = false;
             // 
             // groupBox5
             // 
+            groupBox5.BackColor = SystemColors.ButtonFace;
             groupBox5.Controls.Add(check5);
-            groupBox5.Controls.Add(label22);
-            groupBox5.Controls.Add(label23);
-            groupBox5.Controls.Add(label24);
-            groupBox5.Controls.Add(label25);
-            groupBox5.Controls.Add(label26);
+            groupBox5.Controls.Add(gendershoe5);
+            groupBox5.Controls.Add(price5);
+            groupBox5.Controls.Add(label5);
             groupBox5.Controls.Add(pictureBox5);
-            groupBox5.Location = new Point(24, 320);
+            groupBox5.Location = new Point(24, 448);
             groupBox5.Name = "groupBox5";
             groupBox5.Size = new Size(192, 248);
             groupBox5.TabIndex = 2;
             groupBox5.TabStop = false;
-            groupBox5.Text = "Nike(มือ2)";
+            groupBox5.Text = "Adidas(มือ2)";
             // 
             // check5
             // 
@@ -509,80 +468,59 @@
             check5.UseVisualStyleBackColor = true;
             check5.CheckedChanged += check5_CheckedChanged;
             // 
-            // label22
+            // gendershoe5
             // 
-            label22.AutoSize = true;
-            label22.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label22.ForeColor = Color.Green;
-            label22.Location = new Point(104, 200);
-            label22.Name = "label22";
-            label22.Size = new Size(49, 16);
-            label22.TabIndex = 6;
-            label22.Text = "ลด 20%";
+            gendershoe5.AutoSize = true;
+            gendershoe5.Location = new Point(8, 176);
+            gendershoe5.Name = "gendershoe5";
+            gendershoe5.Size = new Size(63, 15);
+            gendershoe5.TabIndex = 4;
+            gendershoe5.Text = "รองเท้าผู้ชาย";
             // 
-            // label23
+            // price5
             // 
-            label23.AutoSize = true;
-            label23.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Strikeout, GraphicsUnit.Point);
-            label23.ForeColor = SystemColors.ButtonShadow;
-            label23.Location = new Point(56, 200);
-            label23.Name = "label23";
-            label23.Size = new Size(45, 16);
-            label23.TabIndex = 5;
-            label23.Text = "฿4,900";
+            price5.AutoSize = true;
+            price5.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            price5.Location = new Point(8, 200);
+            price5.Name = "price5";
+            price5.Size = new Size(45, 16);
+            price5.TabIndex = 3;
+            price5.Text = "฿3,200";
             // 
-            // label24
+            // label5
             // 
-            label24.AutoSize = true;
-            label24.Location = new Point(8, 176);
-            label24.Name = "label24";
-            label24.Size = new Size(63, 15);
-            label24.TabIndex = 4;
-            label24.Text = "รองเท้าผู้ชาย";
-            // 
-            // label25
-            // 
-            label25.AutoSize = true;
-            label25.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label25.Location = new Point(8, 200);
-            label25.Name = "label25";
-            label25.Size = new Size(45, 16);
-            label25.TabIndex = 3;
-            label25.Text = "฿3,919";
-            // 
-            // label26
-            // 
-            label26.AutoSize = true;
-            label26.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label26.Location = new Point(8, 160);
-            label26.Name = "label26";
-            label26.Size = new Size(151, 15);
-            label26.TabIndex = 2;
-            label26.Text = "Nike Air Dunk Low Jumbo";
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.Location = new Point(8, 160);
+            label5.Name = "label5";
+            label5.Size = new Size(99, 15);
+            label5.TabIndex = 2;
+            label5.Text = "HEAWYN SHOES";
             // 
             // pictureBox5
             // 
-            pictureBox5.Location = new Point(8, 24);
+            pictureBox5.Image = Properties.Resources.HEAWYN_SHOES;
+            pictureBox5.Location = new Point(8, 16);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(176, 128);
+            pictureBox5.Size = new Size(176, 144);
+            pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox5.TabIndex = 1;
             pictureBox5.TabStop = false;
             // 
             // groupBox6
             // 
+            groupBox6.BackColor = SystemColors.ButtonFace;
             groupBox6.Controls.Add(check6);
-            groupBox6.Controls.Add(label27);
-            groupBox6.Controls.Add(label28);
-            groupBox6.Controls.Add(label29);
-            groupBox6.Controls.Add(label30);
-            groupBox6.Controls.Add(label31);
+            groupBox6.Controls.Add(gendershoe6);
+            groupBox6.Controls.Add(price6);
+            groupBox6.Controls.Add(label6);
             groupBox6.Controls.Add(pictureBox6);
-            groupBox6.Location = new Point(232, 320);
+            groupBox6.Location = new Point(232, 448);
             groupBox6.Name = "groupBox6";
             groupBox6.Size = new Size(192, 248);
             groupBox6.TabIndex = 2;
             groupBox6.TabStop = false;
-            groupBox6.Text = "Nike(มือ2)";
+            groupBox6.Text = "Nike(มือ1)";
             // 
             // check6
             // 
@@ -595,80 +533,72 @@
             check6.UseVisualStyleBackColor = true;
             check6.CheckedChanged += check6_CheckedChanged;
             // 
-            // label27
+            // gendershoe6
             // 
-            label27.AutoSize = true;
-            label27.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label27.ForeColor = Color.Green;
-            label27.Location = new Point(104, 200);
-            label27.Name = "label27";
-            label27.Size = new Size(49, 16);
-            label27.TabIndex = 6;
-            label27.Text = "ลด 20%";
+            gendershoe6.AutoSize = true;
+            gendershoe6.Location = new Point(8, 176);
+            gendershoe6.Name = "gendershoe6";
+            gendershoe6.Size = new Size(63, 15);
+            gendershoe6.TabIndex = 4;
+            gendershoe6.Text = "รองเท้าผู้ชาย";
             // 
-            // label28
+            // price6
             // 
-            label28.AutoSize = true;
-            label28.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Strikeout, GraphicsUnit.Point);
-            label28.ForeColor = SystemColors.ButtonShadow;
-            label28.Location = new Point(56, 200);
-            label28.Name = "label28";
-            label28.Size = new Size(45, 16);
-            label28.TabIndex = 5;
-            label28.Text = "฿4,900";
+            price6.AutoSize = true;
+            price6.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            price6.Location = new Point(8, 200);
+            price6.Name = "price6";
+            price6.Size = new Size(45, 16);
+            price6.TabIndex = 3;
+            price6.Text = "฿8,800";
             // 
-            // label29
+            // label6
             // 
-            label29.AutoSize = true;
-            label29.Location = new Point(8, 176);
-            label29.Name = "label29";
-            label29.Size = new Size(63, 15);
-            label29.TabIndex = 4;
-            label29.Text = "รองเท้าผู้ชาย";
-            // 
-            // label30
-            // 
-            label30.AutoSize = true;
-            label30.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label30.Location = new Point(8, 200);
-            label30.Name = "label30";
-            label30.Size = new Size(45, 16);
-            label30.TabIndex = 3;
-            label30.Text = "฿3,919";
-            // 
-            // label31
-            // 
-            label31.AutoSize = true;
-            label31.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label31.Location = new Point(8, 160);
-            label31.Name = "label31";
-            label31.Size = new Size(151, 15);
-            label31.TabIndex = 2;
-            label31.Text = "Nike Air Dunk Low Jumbo";
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.Location = new Point(8, 160);
+            label6.Name = "label6";
+            label6.Size = new Size(92, 15);
+            label6.TabIndex = 2;
+            label6.Text = "Nike Vaporfly 3";
             // 
             // pictureBox6
             // 
+            pictureBox6.Image = Properties.Resources.Nike_Vaporfly_3;
             pictureBox6.Location = new Point(8, 24);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(176, 128);
+            pictureBox6.Size = new Size(176, 136);
+            pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox6.TabIndex = 1;
             pictureBox6.TabStop = false;
             // 
             // groupBox7
             // 
+            groupBox7.BackColor = SystemColors.ButtonFace;
+            groupBox7.Controls.Add(label10);
             groupBox7.Controls.Add(check7);
-            groupBox7.Controls.Add(label32);
-            groupBox7.Controls.Add(label33);
-            groupBox7.Controls.Add(label34);
-            groupBox7.Controls.Add(label35);
-            groupBox7.Controls.Add(label36);
+            groupBox7.Controls.Add(discount7);
+            groupBox7.Controls.Add(oldprice7);
+            groupBox7.Controls.Add(gendershoe7);
+            groupBox7.Controls.Add(price7);
+            groupBox7.Controls.Add(label7);
             groupBox7.Controls.Add(pictureBox7);
-            groupBox7.Location = new Point(440, 320);
+            groupBox7.Location = new Point(440, 448);
             groupBox7.Name = "groupBox7";
             groupBox7.Size = new Size(192, 248);
             groupBox7.TabIndex = 2;
             groupBox7.TabStop = false;
-            groupBox7.Text = "Nike(มือ2)";
+            groupBox7.Text = "Adidas(มือ2)";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label10.Location = new Point(8, 168);
+            label10.Name = "label10";
+            label10.Size = new Size(78, 15);
+            label10.TabIndex = 8;
+            label10.Text = "GOLF SHOES";
             // 
             // check7
             // 
@@ -681,80 +611,81 @@
             check7.UseVisualStyleBackColor = true;
             check7.CheckedChanged += check7_CheckedChanged;
             // 
-            // label32
+            // discount7
             // 
-            label32.AutoSize = true;
-            label32.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label32.ForeColor = Color.Green;
-            label32.Location = new Point(104, 200);
-            label32.Name = "label32";
-            label32.Size = new Size(49, 16);
-            label32.TabIndex = 6;
-            label32.Text = "ลด 20%";
+            discount7.AutoSize = true;
+            discount7.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            discount7.ForeColor = Color.Green;
+            discount7.Location = new Point(104, 200);
+            discount7.Name = "discount7";
+            discount7.Size = new Size(49, 16);
+            discount7.TabIndex = 6;
+            discount7.Text = "ลด 30%";
             // 
-            // label33
+            // oldprice7
             // 
-            label33.AutoSize = true;
-            label33.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Strikeout, GraphicsUnit.Point);
-            label33.ForeColor = SystemColors.ButtonShadow;
-            label33.Location = new Point(56, 200);
-            label33.Name = "label33";
-            label33.Size = new Size(45, 16);
-            label33.TabIndex = 5;
-            label33.Text = "฿4,900";
+            oldprice7.AutoSize = true;
+            oldprice7.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Strikeout, GraphicsUnit.Point);
+            oldprice7.ForeColor = SystemColors.ButtonShadow;
+            oldprice7.Location = new Point(56, 200);
+            oldprice7.Name = "oldprice7";
+            oldprice7.Size = new Size(52, 16);
+            oldprice7.TabIndex = 5;
+            oldprice7.Text = "฿15,900";
             // 
-            // label34
+            // gendershoe7
             // 
-            label34.AutoSize = true;
-            label34.Location = new Point(8, 176);
-            label34.Name = "label34";
-            label34.Size = new Size(63, 15);
-            label34.TabIndex = 4;
-            label34.Text = "รองเท้าผู้ชาย";
+            gendershoe7.AutoSize = true;
+            gendershoe7.Location = new Point(8, 184);
+            gendershoe7.Name = "gendershoe7";
+            gendershoe7.Size = new Size(63, 15);
+            gendershoe7.TabIndex = 4;
+            gendershoe7.Text = "รองเท้าผู้ชาย";
             // 
-            // label35
+            // price7
             // 
-            label35.AutoSize = true;
-            label35.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label35.Location = new Point(8, 200);
-            label35.Name = "label35";
-            label35.Size = new Size(45, 16);
-            label35.TabIndex = 3;
-            label35.Text = "฿3,919";
+            price7.AutoSize = true;
+            price7.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            price7.Location = new Point(8, 200);
+            price7.Name = "price7";
+            price7.Size = new Size(52, 16);
+            price7.TabIndex = 3;
+            price7.Text = "฿11,130";
             // 
-            // label36
+            // label7
             // 
-            label36.AutoSize = true;
-            label36.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label36.Location = new Point(8, 160);
-            label36.Name = "label36";
-            label36.Size = new Size(151, 15);
-            label36.TabIndex = 2;
-            label36.Text = "Nike Air Dunk Low Jumbo";
+            label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label7.Location = new Point(8, 152);
+            label7.Name = "label7";
+            label7.Size = new Size(264, 15);
+            label7.TabIndex = 2;
+            label7.Text = "TOUR360 22 TWIN BOA BOOST   GOLF SHOES";
             // 
             // pictureBox7
             // 
+            pictureBox7.Image = Properties.Resources.TOUR360_22_TWIN_BOA_BOOST_GOLF_SHOES;
             pictureBox7.Location = new Point(8, 24);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(176, 128);
+            pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox7.TabIndex = 1;
             pictureBox7.TabStop = false;
             // 
             // groupBox8
             // 
+            groupBox8.BackColor = SystemColors.ButtonFace;
             groupBox8.Controls.Add(check8);
-            groupBox8.Controls.Add(label37);
-            groupBox8.Controls.Add(label38);
-            groupBox8.Controls.Add(label39);
-            groupBox8.Controls.Add(label40);
-            groupBox8.Controls.Add(label41);
+            groupBox8.Controls.Add(gendershoe8);
+            groupBox8.Controls.Add(price8);
+            groupBox8.Controls.Add(label8);
             groupBox8.Controls.Add(pictureBox8);
-            groupBox8.Location = new Point(648, 320);
+            groupBox8.Location = new Point(648, 448);
             groupBox8.Name = "groupBox8";
             groupBox8.Size = new Size(192, 248);
             groupBox8.TabIndex = 2;
             groupBox8.TabStop = false;
-            groupBox8.Text = "Nike(มือ2)";
+            groupBox8.Text = "ช้างดาว(มือ1)";
             // 
             // check8
             // 
@@ -767,62 +698,42 @@
             check8.UseVisualStyleBackColor = true;
             check8.CheckedChanged += check8_CheckedChanged;
             // 
-            // label37
+            // gendershoe8
             // 
-            label37.AutoSize = true;
-            label37.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label37.ForeColor = Color.Green;
-            label37.Location = new Point(104, 200);
-            label37.Name = "label37";
-            label37.Size = new Size(49, 16);
-            label37.TabIndex = 6;
-            label37.Text = "ลด 20%";
+            gendershoe8.AutoSize = true;
+            gendershoe8.Location = new Point(8, 176);
+            gendershoe8.Name = "gendershoe8";
+            gendershoe8.Size = new Size(70, 15);
+            gendershoe8.TabIndex = 4;
+            gendershoe8.Text = "รองเท้าทุกเพศ";
             // 
-            // label38
+            // price8
             // 
-            label38.AutoSize = true;
-            label38.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Strikeout, GraphicsUnit.Point);
-            label38.ForeColor = SystemColors.ButtonShadow;
-            label38.Location = new Point(56, 200);
-            label38.Name = "label38";
-            label38.Size = new Size(45, 16);
-            label38.TabIndex = 5;
-            label38.Text = "฿4,900";
+            price8.AutoSize = true;
+            price8.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            price8.Location = new Point(8, 200);
+            price8.Name = "price8";
+            price8.Size = new Size(35, 16);
+            price8.TabIndex = 3;
+            price8.Text = "฿139";
             // 
-            // label39
+            // label8
             // 
-            label39.AutoSize = true;
-            label39.Location = new Point(8, 176);
-            label39.Name = "label39";
-            label39.Size = new Size(63, 15);
-            label39.TabIndex = 4;
-            label39.Text = "รองเท้าผู้ชาย";
-            // 
-            // label40
-            // 
-            label40.AutoSize = true;
-            label40.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label40.Location = new Point(8, 200);
-            label40.Name = "label40";
-            label40.Size = new Size(45, 16);
-            label40.TabIndex = 3;
-            label40.Text = "฿3,919";
-            // 
-            // label41
-            // 
-            label41.AutoSize = true;
-            label41.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label41.Location = new Point(8, 160);
-            label41.Name = "label41";
-            label41.Size = new Size(151, 15);
-            label41.TabIndex = 2;
-            label41.Text = "Nike Air Dunk Low Jumbo";
+            label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label8.Location = new Point(8, 160);
+            label8.Name = "label8";
+            label8.Size = new Size(47, 15);
+            label8.TabIndex = 2;
+            label8.Text = "ช้างดาว";
             // 
             // pictureBox8
             // 
+            pictureBox8.Image = Properties.Resources.ช้างดาว;
             pictureBox8.Location = new Point(8, 24);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(176, 128);
+            pictureBox8.Size = new Size(176, 136);
+            pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox8.TabIndex = 1;
             pictureBox8.TabStop = false;
             // 
@@ -830,7 +741,7 @@
             // 
             pictureBox9.BackColor = Color.Transparent;
             pictureBox9.Image = Properties.Resources.image1;
-            pictureBox9.Location = new Point(656, 600);
+            pictureBox9.Location = new Point(648, 720);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(48, 48);
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -841,17 +752,30 @@
             // 
             Basket.AutoSize = true;
             Basket.ForeColor = Color.Red;
-            Basket.Location = new Point(688, 600);
+            Basket.Location = new Point(680, 720);
             Basket.Name = "Basket";
             Basket.Size = new Size(13, 15);
             Basket.TabIndex = 6;
             Basket.Text = "0";
             // 
-            // Form2
+            // pictureBox10
+            // 
+            pictureBox10.BackColor = Color.Transparent;
+            pictureBox10.Image = Properties.Resources.Shoe_tao1;
+            pictureBox10.Location = new Point(328, 8);
+            pictureBox10.Name = "pictureBox10";
+            pictureBox10.Size = new Size(200, 152);
+            pictureBox10.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox10.TabIndex = 7;
+            pictureBox10.TabStop = false;
+            // 
+            // form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(862, 652);
+            BackColor = SystemColors.GradientActiveCaption;
+            ClientSize = new Size(865, 784);
+            Controls.Add(pictureBox10);
             Controls.Add(Basket);
             Controls.Add(pictureBox9);
             Controls.Add(button1);
@@ -863,9 +787,10 @@
             Controls.Add(groupBox4);
             Controls.Add(groupBox3);
             Controls.Add(groupBox1);
-            Controls.Add(label1);
-            Name = "Form2";
-            Text = "Form2";
+            ForeColor = Color.Black;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Name = "form2";
+            Text = "Shoe Tao Store";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
@@ -891,79 +816,71 @@
             groupBox8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Label label1;
         private PictureBox pictureBox1;
         private GroupBox groupBox1;
-        private Label label6;
-        private Label label5;
-        private Label label4;
-        private Label label3;
-        private Label label2;
+        private Label discount1;
+        private Label oldprice1;
+        private Label gendershoe1;
+        private Label price1;
+        private Label label1;
         private CheckBox check1;
         private GroupBox groupBox2;
         private CheckBox check2;
-        private Label label7;
-        private Label label8;
-        private Label label9;
-        private Label label10;
-        private Label label11;
+        private Label gendershoe2;
+        private Label price2;
+        private Label label2;
         private PictureBox pictureBox2;
         private Button button1;
         private GroupBox groupBox3;
         private CheckBox check3;
-        private Label label12;
-        private Label label13;
-        private Label label14;
-        private Label label15;
-        private Label label16;
+        private Label gendershoe3;
+        private Label price3;
+        private Label label3;
         private PictureBox pictureBox3;
         private GroupBox groupBox4;
         private CheckBox check4;
-        private Label label17;
-        private Label label18;
-        private Label label19;
-        private Label label20;
-        private Label label21;
+        private Label gendershoe4;
+        private Label price4;
+        private Label label4;
         private PictureBox pictureBox4;
         private GroupBox groupBox5;
         private CheckBox check5;
-        private Label label22;
-        private Label label23;
-        private Label label24;
-        private Label label25;
-        private Label label26;
+        private Label gendershoe5;
+        private Label price5;
+        private Label label5;
         private PictureBox pictureBox5;
         private GroupBox groupBox6;
         private CheckBox check6;
-        private Label label27;
-        private Label label28;
-        private Label label29;
-        private Label label30;
-        private Label label31;
+        private Label gendershoe6;
+        private Label price6;
+        private Label label6;
         private PictureBox pictureBox6;
         private GroupBox groupBox7;
         private CheckBox check7;
-        private Label label32;
-        private Label label33;
-        private Label label34;
-        private Label label35;
-        private Label label36;
+        private Label discount7;
+        private Label oldprice7;
+        private Label gendershoe7;
+        private Label price7;
+        private Label label7;
         private PictureBox pictureBox7;
         private GroupBox groupBox8;
         private CheckBox check8;
-        private Label label37;
-        private Label label38;
-        private Label label39;
-        private Label label40;
-        private Label label41;
+        private Label gendershoe8;
+        private Label price8;
+        private Label label8;
         private PictureBox pictureBox8;
         private PictureBox pictureBox9;
         private Label Basket;
+        private Label discount3;
+        private Label oldprice3;
+        private PictureBox pictureBox10;
+        private Label label9;
+        private Label label10;
     }
 }
