@@ -35,6 +35,7 @@
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
+            loginbutton = new Button();
             SuspendLayout();
             // 
             // label1
@@ -51,7 +52,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(368, 152);
+            label2.Location = new Point(360, 160);
             label2.Name = "label2";
             label2.Size = new Size(43, 29);
             label2.TabIndex = 1;
@@ -61,7 +62,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(216, 248);
+            label3.Location = new Point(208, 256);
             label3.Name = "label3";
             label3.Size = new Size(338, 29);
             label3.TabIndex = 1;
@@ -71,7 +72,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Arial Black", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(464, 296);
+            label4.Location = new Point(456, 304);
             label4.Name = "label4";
             label4.Size = new Size(117, 38);
             label4.TabIndex = 1;
@@ -81,7 +82,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Arial Black", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.Location = new Point(192, 296);
+            label5.Location = new Point(184, 304);
             label5.Name = "label5";
             label5.Size = new Size(251, 38);
             label5.TabIndex = 1;
@@ -91,18 +92,32 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label6.Location = new Point(344, 200);
+            label6.Location = new Point(336, 208);
             label6.Name = "label6";
             label6.Size = new Size(100, 29);
             label6.TabIndex = 1;
             label6.Text = "RMUTR";
             // 
+            // loginbutton
+            // 
+            loginbutton.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            loginbutton.BackColor = Color.AliceBlue;
+            loginbutton.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            loginbutton.Location = new Point(328, 384);
+            loginbutton.Name = "loginbutton";
+            loginbutton.Size = new Size(104, 39);
+            loginbutton.TabIndex = 3;
+            loginbutton.Text = "Close";
+            loginbutton.UseVisualStyleBackColor = false;
+            loginbutton.Click += loginbutton_Click;
+            // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.GradientInactiveCaption;
+            BackColor = Color.CornflowerBlue;
             ClientSize = new Size(800, 450);
+            Controls.Add(loginbutton);
             Controls.Add(label5);
             Controls.Add(label6);
             Controls.Add(label4);
@@ -125,5 +140,6 @@
         private Label label4;
         private Label label5;
         private Label label6;
+        private Button loginbutton;
     }
 }

@@ -63,9 +63,89 @@ namespace Bubble_Bee.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _0AB884E1_9BA5_4B3D_A0A1_173864622950 {
+            get {
+                object obj = ResourceManager.GetObject("0AB884E1-9BA5-4B3D-A0A1-173864622950", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _0AB884E1_9BA5_4B3D_A0A1_173864622950__1_ {
+            get {
+                object obj = ResourceManager.GetObject("0AB884E1-9BA5-4B3D-A0A1-173864622950 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _0AB884E1_9BA5_4B3D_A0A1_173864622950__1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("0AB884E1-9BA5-4B3D-A0A1-173864622950 (1) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _0AB884E1_9BA5_4B3D_A0A1_173864622950__1___1_1 {
+            get {
+                object obj = ResourceManager.GetObject("0AB884E1-9BA5-4B3D-A0A1-173864622950 (1) (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _0AB884E1_9BA5_4B3D_A0A1_1738646229501 {
+            get {
+                object obj = ResourceManager.GetObject("0AB884E1-9BA5-4B3D-A0A1-1738646229501", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _0AB884E1_9BA5_4B3D_A0A1_1738646229502 {
+            get {
+                object obj = ResourceManager.GetObject("0AB884E1-9BA5-4B3D-A0A1-1738646229502", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _21f1b87966512717c47e225a9738de0d {
             get {
                 object obj = ResourceManager.GetObject("21f1b87966512717c47e225a9738de0d", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Brown_White_Cafe___Resto_Logo {
+            get {
+                object obj = ResourceManager.GetObject("Brown White Cafe & Resto Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Brown_White_Cafe___Resto_Logo1 {
+            get {
+                object obj = ResourceManager.GetObject("Brown White Cafe & Resto Logo1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +303,49 @@ namespace Bubble_Bee.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ดีไซน์ที่ยังไม่ได้ตั้งชื่อ {
+            get {
+                object obj = ResourceManager.GetObject("ดีไซน์ที่ยังไม่ได้ตั้งชื่อ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ดีไซน์ที่ยังไม่ได้ตั้งชื่อ1 {
+            get {
+                object obj = ResourceManager.GetObject("ดีไซน์ที่ยังไม่ได้ตั้งชื่อ1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap นมเย็น_1_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("นมเย็น_1-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap สีน้ำตาลและขาว_ลายเส้น_น่ารัก_เครื่องดื่ม_โลโก้ {
+            get {
+                object obj = ResourceManager.GetObject("สีน้ำตาลและขาว ลายเส้น น่ารัก เครื่องดื่ม โลโก้", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap สีน้ำตาลและขาว_ลายเส้น_น่ารัก_เครื่องดื่ม_โลโก้1 {
+            get {
+                object obj = ResourceManager.GetObject("สีน้ำตาลและขาว ลายเส้น น่ารัก เครื่องดื่ม โลโก้1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

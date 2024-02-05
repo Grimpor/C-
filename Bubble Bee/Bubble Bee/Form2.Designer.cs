@@ -79,13 +79,14 @@
             // 
             // MilkTea
             // 
+            MilkTea.BackColor = SystemColors.GradientInactiveCaption;
             MilkTea.Controls.Add(checkMilkTea);
             MilkTea.Controls.Add(milkteaprice);
             MilkTea.Controls.Add(pictureBox1);
             MilkTea.Font = new Font("Courier New", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             MilkTea.Location = new Point(24, 16);
             MilkTea.Name = "MilkTea";
-            MilkTea.Size = new Size(240, 344);
+            MilkTea.Size = new Size(240, 320);
             MilkTea.TabIndex = 0;
             MilkTea.TabStop = false;
             MilkTea.Text = "Milk Tea";
@@ -94,7 +95,7 @@
             // 
             checkMilkTea.AutoSize = true;
             checkMilkTea.Font = new Font("TH Kodchasal", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            checkMilkTea.Location = new Point(24, 288);
+            checkMilkTea.Location = new Point(24, 272);
             checkMilkTea.Name = "checkMilkTea";
             checkMilkTea.Size = new Size(111, 40);
             checkMilkTea.TabIndex = 5;
@@ -106,16 +107,17 @@
             // 
             milkteaprice.AutoSize = true;
             milkteaprice.Font = new Font("Dubai", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            milkteaprice.Location = new Point(24, 240);
+            milkteaprice.Location = new Point(24, 232);
             milkteaprice.Name = "milkteaprice";
             milkteaprice.Size = new Size(197, 27);
             milkteaprice.TabIndex = 4;
             milkteaprice.Text = "Milk Tea --------------- ฿19";
+            milkteaprice.Click += milkteaprice_Click;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.messageImage_1705044732360_removebg_preview__1_;
-            pictureBox1.Location = new Point(64, 40);
+            pictureBox1.Location = new Point(56, 48);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(120, 168);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -124,13 +126,14 @@
             // 
             // thaitea
             // 
+            thaitea.BackColor = SystemColors.GradientInactiveCaption;
             thaitea.Controls.Add(checkThaiTea);
             thaitea.Controls.Add(thaiteaprice);
             thaitea.Controls.Add(pictureBox2);
             thaitea.Font = new Font("Courier New", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            thaitea.Location = new Point(312, 16);
+            thaitea.Location = new Point(288, 16);
             thaitea.Name = "thaitea";
-            thaitea.Size = new Size(248, 344);
+            thaitea.Size = new Size(240, 320);
             thaitea.TabIndex = 1;
             thaitea.TabStop = false;
             thaitea.Text = "Thai Tea";
@@ -139,7 +142,7 @@
             // 
             checkThaiTea.AutoSize = true;
             checkThaiTea.Font = new Font("TH Kodchasal", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            checkThaiTea.Location = new Point(24, 288);
+            checkThaiTea.Location = new Point(24, 272);
             checkThaiTea.Name = "checkThaiTea";
             checkThaiTea.Size = new Size(111, 40);
             checkThaiTea.TabIndex = 6;
@@ -151,7 +154,7 @@
             // 
             thaiteaprice.AutoSize = true;
             thaiteaprice.Font = new Font("Dubai", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            thaiteaprice.Location = new Point(32, 240);
+            thaiteaprice.Location = new Point(24, 232);
             thaiteaprice.Name = "thaiteaprice";
             thaiteaprice.Size = new Size(198, 27);
             thaiteaprice.TabIndex = 5;
@@ -160,7 +163,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.messageImage_1705047228699_removebg_preview;
-            pictureBox2.Location = new Point(80, 40);
+            pictureBox2.Location = new Point(72, 48);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(120, 168);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -169,13 +172,14 @@
             // 
             // groupBox1
             // 
+            groupBox1.BackColor = SystemColors.GradientInactiveCaption;
             groupBox1.Controls.Add(checkPinkMik);
             groupBox1.Controls.Add(icedpinkmilkprice);
             groupBox1.Controls.Add(pictureBox4);
             groupBox1.Font = new Font("Courier New", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            groupBox1.Location = new Point(888, 16);
+            groupBox1.Location = new Point(816, 16);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(264, 344);
+            groupBox1.Size = new Size(264, 320);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "Iced Pink Milk";
@@ -184,7 +188,7 @@
             // 
             checkPinkMik.AutoSize = true;
             checkPinkMik.Font = new Font("TH Kodchasal", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            checkPinkMik.Location = new Point(16, 288);
+            checkPinkMik.Location = new Point(24, 272);
             checkPinkMik.Name = "checkPinkMik";
             checkPinkMik.Size = new Size(111, 40);
             checkPinkMik.TabIndex = 8;
@@ -196,7 +200,7 @@
             // 
             icedpinkmilkprice.AutoSize = true;
             icedpinkmilkprice.Font = new Font("Dubai", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            icedpinkmilkprice.Location = new Point(16, 240);
+            icedpinkmilkprice.Location = new Point(16, 232);
             icedpinkmilkprice.Name = "icedpinkmilkprice";
             icedpinkmilkprice.Size = new Size(239, 27);
             icedpinkmilkprice.TabIndex = 8;
@@ -205,7 +209,7 @@
             // pictureBox4
             // 
             pictureBox4.Image = Properties.Resources.นมเย็น_1_removebg_preview;
-            pictureBox4.Location = new Point(48, 40);
+            pictureBox4.Location = new Point(48, 48);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(168, 168);
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
@@ -214,13 +218,14 @@
             // 
             // groupBox2
             // 
+            groupBox2.BackColor = SystemColors.GradientInactiveCaption;
             groupBox2.Controls.Add(checkGreenTea);
             groupBox2.Controls.Add(greenteaprice);
             groupBox2.Controls.Add(pictureBox3);
             groupBox2.Font = new Font("Courier New", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            groupBox2.Location = new Point(592, 16);
+            groupBox2.Location = new Point(544, 16);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(256, 344);
+            groupBox2.Size = new Size(256, 320);
             groupBox2.TabIndex = 2;
             groupBox2.TabStop = false;
             groupBox2.Text = "Green Tea";
@@ -229,7 +234,7 @@
             // 
             checkGreenTea.AutoSize = true;
             checkGreenTea.Font = new Font("TH Kodchasal", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            checkGreenTea.Location = new Point(32, 288);
+            checkGreenTea.Location = new Point(24, 272);
             checkGreenTea.Name = "checkGreenTea";
             checkGreenTea.Size = new Size(111, 40);
             checkGreenTea.TabIndex = 7;
@@ -241,7 +246,7 @@
             // 
             greenteaprice.AutoSize = true;
             greenteaprice.Font = new Font("Dubai", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            greenteaprice.Location = new Point(32, 240);
+            greenteaprice.Location = new Point(24, 232);
             greenteaprice.Name = "greenteaprice";
             greenteaprice.Size = new Size(213, 27);
             greenteaprice.TabIndex = 6;
@@ -250,7 +255,7 @@
             // pictureBox3
             // 
             pictureBox3.Image = Properties.Resources.messageImage_1705047326601_removebg_preview;
-            pictureBox3.Location = new Point(80, 40);
+            pictureBox3.Location = new Point(64, 48);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(120, 168);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
@@ -259,6 +264,7 @@
             // 
             // Topping
             // 
+            Topping.BackColor = SystemColors.GradientInactiveCaption;
             Topping.Controls.Add(checkPop);
             Topping.Controls.Add(checkSnow);
             Topping.Controls.Add(checkBubb);
@@ -269,7 +275,7 @@
             Topping.Controls.Add(pictureBox6);
             Topping.Controls.Add(pictureBox5);
             Topping.Font = new Font("Courier New", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            Topping.Location = new Point(24, 384);
+            Topping.Location = new Point(32, 400);
             Topping.Name = "Topping";
             Topping.Size = new Size(544, 256);
             Topping.TabIndex = 5;
@@ -403,6 +409,7 @@
             basketlist.Name = "basketlist";
             basketlist.Size = new Size(296, 301);
             basketlist.TabIndex = 10;
+            basketlist.SelectedIndexChanged += basketlist_SelectedIndexChanged;
             // 
             // login
             // 
@@ -437,6 +444,7 @@
             // 
             // groupBox3
             // 
+            groupBox3.BackColor = SystemColors.GradientInactiveCaption;
             groupBox3.Controls.Add(totalnum);
             groupBox3.Controls.Add(total);
             groupBox3.Controls.Add(login);
@@ -444,7 +452,7 @@
             groupBox3.Controls.Add(Basket);
             groupBox3.Controls.Add(pictureBox8);
             groupBox3.Font = new Font("Courier New", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            groupBox3.Location = new Point(672, 368);
+            groupBox3.Location = new Point(608, 360);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new Size(432, 352);
             groupBox3.TabIndex = 14;
@@ -455,7 +463,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1188, 734);
+            BackColor = SystemColors.ActiveCaption;
+            ClientSize = new Size(1108, 734);
             Controls.Add(groupBox3);
             Controls.Add(Topping);
             Controls.Add(groupBox2);
@@ -463,7 +472,7 @@
             Controls.Add(thaitea);
             Controls.Add(MilkTea);
             Name = "Form2";
-            Text = "Form2";
+            Text = "BuBeeCafe";
             MilkTea.ResumeLayout(false);
             MilkTea.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

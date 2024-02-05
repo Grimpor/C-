@@ -119,7 +119,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.BUBBLE_BEE__3_;
+            BackgroundImage = Properties.Resources.ดีไซน์ที่ยังไม่ได้ตั้งชื่อ1;
             ClientSize = new Size(800, 474);
             Controls.Add(Close);
             Controls.Add(pictureBox1);

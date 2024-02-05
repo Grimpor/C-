@@ -118,11 +118,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="นมเย็น_1-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\นมเย็น_1-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Brown White Cafe &amp; Resto Logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brown White Cafe &amp; Resto Logo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ดีไซน์ที่ยังไม่ได้ตั้งชื่อ1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ดีไซน์ที่ยังไม่ได้ตั้งชื่อ1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="messageImage_1705047228699-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\messageImage_1705047228699-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0AB884E1-9BA5-4B3D-A0A1-173864622950" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0AB884E1-9BA5-4B3D-A0A1-173864622950.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0AB884E1-9BA5-4B3D-A0A1-173864622950 (1) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0AB884E1-9BA5-4B3D-A0A1-173864622950 (1) (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="channels4_profile-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\channels4_profile-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,43 +139,70 @@
   <data name="BUBBLE BEE (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BUBBLE BEE (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="messageImage_1705048664331-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\messageImage_1705048664331-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="messageImage_1705047326601-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\messageImage_1705047326601-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="messageImage_1705044732360-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\messageImage_1705044732360-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="messageImage_1705044604235" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\messageImage_1705044604235.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="messageImage_1705044732360" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\messageImage_1705044732360.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="messageImage_1705048600076-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\messageImage_1705048600076-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="messageImage_1705048572646-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\messageImage_1705048572646-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="messageImage_1705048572646-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\messageImage_1705048572646-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="messageImage_1705044604235 (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\messageImage_1705044604235 (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="messageImage_1705044604235 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\messageImage_1705044604235 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ดีไซน์ที่ยังไม่ได้ตั้งชื่อ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ดีไซน์ที่ยังไม่ได้ตั้งชื่อ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BUBBLE BEE (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BUBBLE BEE (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="21f1b87966512717c47e225a9738de0d" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\21f1b87966512717c47e225a9738de0d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="messageImage_1705044604235 (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\messageImage_1705044604235 (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="messageImage_1705048664331-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\messageImage_1705048664331-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="สีน้ำตาลและขาว ลายเส้น น่ารัก เครื่องดื่ม โลโก้1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\สีน้ำตาลและขาว ลายเส้น น่ารัก เครื่องดื่ม โลโก้1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brown White Cafe &amp; Resto Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brown White Cafe &amp; Resto Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="messageImage_1705044604235" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\messageImage_1705044604235.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="สีน้ำตาลและขาว ลายเส้น น่ารัก เครื่องดื่ม โลโก้" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\สีน้ำตาลและขาว ลายเส้น น่ารัก เครื่องดื่ม โลโก้.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="messageImage_1705048572646-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\messageImage_1705048572646-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="messageImage_1705044732360" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\messageImage_1705044732360.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="channels4_profile-removebg-preview__1_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\channels4_profile-removebg-preview__1_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="messageImage_1705048600076-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\messageImage_1705048600076-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="messageImage_1705044732360-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\messageImage_1705044732360-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="messageImage_1705044604235 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\messageImage_1705044604235 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="messageImage_1705048572646-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\messageImage_1705048572646-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0AB884E1-9BA5-4B3D-A0A1-1738646229501" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0AB884E1-9BA5-4B3D-A0A1-1738646229501.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0AB884E1-9BA5-4B3D-A0A1-1738646229502" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0AB884E1-9BA5-4B3D-A0A1-1738646229502.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="21f1b87966512717c47e225a9738de0d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21f1b87966512717c47e225a9738de0d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="messageImage_1705047326601-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\messageImage_1705047326601-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="นมเย็น_1-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\นมเย็น_1-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0AB884E1-9BA5-4B3D-A0A1-173864622950 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0AB884E1-9BA5-4B3D-A0A1-173864622950 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0AB884E1-9BA5-4B3D-A0A1-173864622950 (1) (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0AB884E1-9BA5-4B3D-A0A1-173864622950 (1) (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

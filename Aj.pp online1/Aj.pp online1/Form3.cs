@@ -19,7 +19,12 @@ namespace Aj.pp_online1
 
         private void Form3_Click(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void loginbutton_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

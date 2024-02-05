@@ -1,3 +1,5 @@
+using System.Diagnostics.Eventing.Reader;
+
 namespace Bubble_Bee
 {
     public partial class Form1 : Form
@@ -9,22 +11,22 @@ namespace Bubble_Bee
 
         private void login_Click(object sender, EventArgs e)
         {
-            if (textName.Text == " " || textPassword.Text == " ")
+            string name = "Nantiva Boonpa";
+            string pass = "1146";
+
+            if (textName.Text == name || textPassword.Text == pass)
             {
-                MessageBox.Show("Plase Input Username and Password", "Warnig", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-            else if (textName.Text == "" || textPassword.Text == "")
-            {
-                MessageBox.Show("Plase Input Username and Password", "Warnig", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Login Success", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                
+                Form2 BuBeeCafe = new Form2();
+                this.Hide();
+                BuBeeCafe.ShowDialog();
+                this.Close();
             }
             else
             {
-                Form2 form = new Form2();
-                this.Hide();
-                form.ShowDialog();
-                this.Close();
+                MessageBox.Show("Invalid Username or Password", "Waring", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-
         }
 
         private void textName_TextChanged(object sender, EventArgs e)
@@ -48,6 +50,31 @@ namespace Bubble_Bee
                 textPassword.Text = "";
                 textPassword.ForeColor = Color.Black;
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

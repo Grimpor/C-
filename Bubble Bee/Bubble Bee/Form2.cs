@@ -94,7 +94,7 @@ namespace Bubble_Bee
                 basketlist.Items.Add(bubbleprice.Text);
                 totalnum.Text = (totaln += 5).ToString();
             }
-            else                                                
+            else
             {
                 num--;
                 basketlist.Items.Remove(bubbleprice.Text);
@@ -139,22 +139,32 @@ namespace Bubble_Bee
 
         private void login_Click(object sender, EventArgs e)
         {
-            if(num == 0) 
+            if (num == 0)
             {
                 MessageBox.Show("Pls choose some product", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
                 DialogResult result = MessageBox.Show("Are you confirm your order?", "Confirm?", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
-                if (result == DialogResult.OK) 
+                if (result == DialogResult.OK)
                 {
                     Form3 form3 = new Form3();
                     this.Hide();
                     form3.ShowDialog();
                     this.Close();
                 }
-                
+
             }
+        }
+
+        private void basketlist_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void milkteaprice_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

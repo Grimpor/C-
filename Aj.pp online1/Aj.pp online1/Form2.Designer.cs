@@ -80,15 +80,13 @@
             price7 = new Label();
             label7 = new Label();
             pictureBox7 = new PictureBox();
-            groupBox8 = new GroupBox();
-            check8 = new CheckBox();
-            gendershoe8 = new Label();
-            price8 = new Label();
-            label8 = new Label();
-            pictureBox8 = new PictureBox();
             pictureBox9 = new PictureBox();
             Basket = new Label();
             pictureBox10 = new PictureBox();
+            buylist = new ListBox();
+            label8 = new Label();
+            price = new Label();
+            baht = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
@@ -103,8 +101,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             groupBox7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
-            groupBox8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             SuspendLayout();
@@ -130,7 +126,7 @@
             groupBox1.Controls.Add(price1);
             groupBox1.Controls.Add(label1);
             groupBox1.Controls.Add(pictureBox1);
-            groupBox1.Location = new Point(24, 168);
+            groupBox1.Location = new Point(24, 176);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(192, 248);
             groupBox1.TabIndex = 2;
@@ -207,7 +203,7 @@
             groupBox2.Controls.Add(price2);
             groupBox2.Controls.Add(label2);
             groupBox2.Controls.Add(pictureBox2);
-            groupBox2.Location = new Point(232, 168);
+            groupBox2.Location = new Point(232, 448);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(192, 248);
             groupBox2.TabIndex = 2;
@@ -288,7 +284,7 @@
             groupBox3.Controls.Add(price3);
             groupBox3.Controls.Add(label3);
             groupBox3.Controls.Add(pictureBox3);
-            groupBox3.Location = new Point(440, 168);
+            groupBox3.Location = new Point(648, 176);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new Size(192, 248);
             groupBox3.TabIndex = 2;
@@ -385,12 +381,13 @@
             groupBox4.Controls.Add(price4);
             groupBox4.Controls.Add(label4);
             groupBox4.Controls.Add(pictureBox4);
-            groupBox4.Location = new Point(648, 168);
+            groupBox4.Location = new Point(232, 176);
             groupBox4.Name = "groupBox4";
             groupBox4.Size = new Size(192, 248);
             groupBox4.TabIndex = 2;
             groupBox4.TabStop = false;
             groupBox4.Text = "Nike(มือ1)";
+            groupBox4.Enter += groupBox4_Enter;
             // 
             // check4
             // 
@@ -515,7 +512,7 @@
             groupBox6.Controls.Add(price6);
             groupBox6.Controls.Add(label6);
             groupBox6.Controls.Add(pictureBox6);
-            groupBox6.Location = new Point(232, 448);
+            groupBox6.Location = new Point(440, 176);
             groupBox6.Name = "groupBox6";
             groupBox6.Size = new Size(192, 248);
             groupBox6.TabIndex = 2;
@@ -672,71 +669,6 @@
             pictureBox7.TabIndex = 1;
             pictureBox7.TabStop = false;
             // 
-            // groupBox8
-            // 
-            groupBox8.BackColor = SystemColors.ButtonFace;
-            groupBox8.Controls.Add(check8);
-            groupBox8.Controls.Add(gendershoe8);
-            groupBox8.Controls.Add(price8);
-            groupBox8.Controls.Add(label8);
-            groupBox8.Controls.Add(pictureBox8);
-            groupBox8.Location = new Point(648, 448);
-            groupBox8.Name = "groupBox8";
-            groupBox8.Size = new Size(192, 248);
-            groupBox8.TabIndex = 2;
-            groupBox8.TabStop = false;
-            groupBox8.Text = "ช้างดาว(มือ1)";
-            // 
-            // check8
-            // 
-            check8.AutoSize = true;
-            check8.Location = new Point(8, 224);
-            check8.Name = "check8";
-            check8.Size = new Size(70, 19);
-            check8.TabIndex = 7;
-            check8.Text = "ใส่ตระกร้า";
-            check8.UseVisualStyleBackColor = true;
-            check8.CheckedChanged += check8_CheckedChanged;
-            // 
-            // gendershoe8
-            // 
-            gendershoe8.AutoSize = true;
-            gendershoe8.Location = new Point(8, 176);
-            gendershoe8.Name = "gendershoe8";
-            gendershoe8.Size = new Size(70, 15);
-            gendershoe8.TabIndex = 4;
-            gendershoe8.Text = "รองเท้าทุกเพศ";
-            // 
-            // price8
-            // 
-            price8.AutoSize = true;
-            price8.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            price8.Location = new Point(8, 200);
-            price8.Name = "price8";
-            price8.Size = new Size(35, 16);
-            price8.TabIndex = 3;
-            price8.Text = "฿139";
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label8.Location = new Point(8, 160);
-            label8.Name = "label8";
-            label8.Size = new Size(47, 15);
-            label8.TabIndex = 2;
-            label8.Text = "ช้างดาว";
-            // 
-            // pictureBox8
-            // 
-            pictureBox8.Image = Properties.Resources.ช้างดาว;
-            pictureBox8.Location = new Point(8, 24);
-            pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(176, 136);
-            pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox8.TabIndex = 1;
-            pictureBox8.TabStop = false;
-            // 
             // pictureBox9
             // 
             pictureBox9.BackColor = Color.Transparent;
@@ -769,18 +701,64 @@
             pictureBox10.TabIndex = 7;
             pictureBox10.TabStop = false;
             // 
+            // buylist
+            // 
+            buylist.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            buylist.FormattingEnabled = true;
+            buylist.ItemHeight = 15;
+            buylist.Location = new Point(648, 448);
+            buylist.Name = "buylist";
+            buylist.Size = new Size(200, 244);
+            buylist.TabIndex = 8;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label8.ForeColor = Color.Red;
+            label8.Location = new Point(672, 672);
+            label8.Name = "label8";
+            label8.Size = new Size(48, 21);
+            label8.TabIndex = 9;
+            label8.Text = "Total";
+            // 
+            // price
+            // 
+            price.AutoSize = true;
+            price.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            price.ForeColor = Color.Red;
+            price.Location = new Point(736, 672);
+            price.Name = "price";
+            price.Size = new Size(19, 21);
+            price.TabIndex = 10;
+            price.Text = "0";
+            // 
+            // baht
+            // 
+            baht.AutoSize = true;
+            baht.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            baht.ForeColor = Color.Red;
+            baht.Location = new Point(800, 672);
+            baht.Name = "baht";
+            baht.Size = new Size(45, 21);
+            baht.TabIndex = 11;
+            baht.Text = "Baht";
+            // 
             // form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.GradientActiveCaption;
+            BackColor = Color.CornflowerBlue;
             ClientSize = new Size(865, 784);
+            Controls.Add(baht);
+            Controls.Add(price);
+            Controls.Add(label8);
+            Controls.Add(buylist);
             Controls.Add(pictureBox10);
             Controls.Add(Basket);
             Controls.Add(pictureBox9);
             Controls.Add(button1);
             Controls.Add(groupBox2);
-            Controls.Add(groupBox8);
             Controls.Add(groupBox7);
             Controls.Add(groupBox6);
             Controls.Add(groupBox5);
@@ -791,6 +769,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "form2";
             Text = "Shoe Tao Store";
+            Load += form2_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
@@ -812,9 +791,6 @@
             groupBox7.ResumeLayout(false);
             groupBox7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
-            groupBox8.ResumeLayout(false);
-            groupBox8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
             ResumeLayout(false);
@@ -869,12 +845,6 @@
         private Label price7;
         private Label label7;
         private PictureBox pictureBox7;
-        private GroupBox groupBox8;
-        private CheckBox check8;
-        private Label gendershoe8;
-        private Label price8;
-        private Label label8;
-        private PictureBox pictureBox8;
         private PictureBox pictureBox9;
         private Label Basket;
         private Label discount3;
@@ -882,5 +852,9 @@
         private PictureBox pictureBox10;
         private Label label9;
         private Label label10;
+        private ListBox buylist;
+        private Label label8;
+        private Label price;
+        private Label baht;
     }
 }

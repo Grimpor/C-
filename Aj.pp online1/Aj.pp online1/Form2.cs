@@ -27,15 +27,18 @@ namespace Aj.pp_online1
             {
                 basketnum++;
                 basketlist.Add(label1.Text);
+                buylist.Items.Add(label1.Text);
                 total += 3919;
             }
             else
             {
                 basketnum--;
                 basketlist.Remove(label1.Text);
+                buylist.Items.Remove(label1.Text);
                 total -= 3919;
 
             }
+            price.Text = total.ToString();
             Basket.Text = basketnum.ToString();
 
         }
@@ -46,14 +49,17 @@ namespace Aj.pp_online1
             {
                 basketnum++;
                 basketlist.Add(label2.Text);
+                buylist.Items.Add(label2.Text);
                 total += 3800;
             }
             else
             {
                 basketnum--;
                 basketlist.Remove(label2.Text);
-                total -= 3800; 
+                buylist.Items.Remove(label3.Text);
+                total -= 3800;
             }
+            price.Text = total.ToString();
             Basket.Text = basketnum.ToString();
         }
 
@@ -63,14 +69,17 @@ namespace Aj.pp_online1
             {
                 basketnum++;
                 basketlist.Add(label3.Text);
+                buylist.Items.Add(label3.Text);
                 total += 3870;
             }
             else
             {
                 basketnum--;
                 basketlist.Remove(label3.Text);
+                buylist.Items.Remove(label3.Text);
                 total -= 3870;
             }
+            price.Text = total.ToString();
             Basket.Text = basketnum.ToString();
         }
 
@@ -80,14 +89,17 @@ namespace Aj.pp_online1
             {
                 basketnum++;
                 basketlist.Add(label4.Text);
+                buylist.Items.Add(label4.Text);
                 total += 4300;
             }
             else
             {
                 basketnum--;
                 basketlist.Remove(label4.Text);
+                buylist.Items.Remove(label4.Text);
                 total -= 4300;
             }
+            price.Text = total.ToString();
             Basket.Text = basketnum.ToString();
         }
 
@@ -97,14 +109,17 @@ namespace Aj.pp_online1
             {
                 basketnum++;
                 basketlist.Add(label5.Text);
+                buylist.Items.Add(label5.Text);
                 total += 3200;
             }
             else
             {
                 basketnum--;
                 basketlist.Remove(label5.Text);
+                buylist.Items.Remove(label5.Text);
                 total -= 3200;
             }
+            price.Text = total.ToString();
             Basket.Text = basketnum.ToString();
         }
 
@@ -114,14 +129,17 @@ namespace Aj.pp_online1
             {
                 basketnum++;
                 basketlist.Add(label6.Text);
+                buylist.Items.Add(label6.Text);
                 total += 8800;
             }
             else
             {
                 basketnum--;
                 basketlist.Remove(label6.Text);
+                buylist.Items.Remove(label6.Text);
                 total -= 8800;
             }
+            price.Text = total.ToString();
             Basket.Text = basketnum.ToString();
         }
 
@@ -131,37 +149,23 @@ namespace Aj.pp_online1
             {
                 basketnum++;
                 basketlist.Add(label7.Text);
+                buylist.Items.Add(label7.Text);
                 total += 11130;
             }
             else
             {
                 basketnum--;
                 basketlist.Remove(label7.Text);
+                buylist.Items.Remove(label7.Text);
                 total -= 11130;
             }
-            Basket.Text = basketnum.ToString();
-        }
-
-        private void check8_CheckedChanged(object sender, EventArgs e)
-        {
-            if (check8.Checked == true)
-            {
-                basketnum++;
-                basketlist.Add(label8.Text);
-                total += 139;
-            }
-            else
-            {
-                basketnum--;
-                basketlist.Remove(label8.Text);
-                total -= 139;
-            }
+            price.Text = total.ToString();
             Basket.Text = basketnum.ToString();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (basketnum == 0) 
+            if (basketnum == 0)
             {
                 MessageBox.Show("โปรดเลือกสินค้าเพื่อทำรายการ", "คำเตือน", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
@@ -169,18 +173,28 @@ namespace Aj.pp_online1
             else
             {
                 string itemslist = string.Join(",\n ", basketlist);
-                DialogResult result = MessageBox.Show($"ยืนยันการสั่งซื้อ : {itemslist} \n ราคาทั้งหมด {total} บาท" , "ยินยันการสั่งซื้อ", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                DialogResult result = MessageBox.Show($"ยืนยันการสั่งซื้อ : {itemslist} \n ราคาทั้งหมด {total} บาท", "ยินยันการสั่งซื้อ", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
                 if (result == DialogResult.OK)
                 {
                     this.Hide();
-                    Form3 f3 = new Form3();
-                    f3.ShowDialog();
+                    Form4 f4 = new Form4();
+                    f4.ShowDialog();
                     this.Close();
                 }
             }
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox4_Enter(object sender, EventArgs e)
         {
 
         }

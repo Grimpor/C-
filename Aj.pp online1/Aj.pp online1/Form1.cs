@@ -8,13 +8,21 @@ namespace Aj.pp_online1
         }
 
         private void loginbutton_Click(object sender, EventArgs e)
+
         {
+            string loguser = "Chalunton";
+            string logpass = "1140";
             if ((password.Text == " " || username.Text == " ") || (password.Text == "" || username.Text == "") || (password.ForeColor == Color.Silver || username.ForeColor == Color.Silver))
             {
                 MessageBox.Show("Pls input your username and password!!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+            else if(username.Text != loguser || password.Text != logpass)
+            {
+                MessageBox.Show("Invalid Username or Password!!", "warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
             else
             {
+                MessageBox.Show("Login Success", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
                 form2 f2 = new form2();
                 f2.ShowDialog();
@@ -58,5 +66,7 @@ namespace Aj.pp_online1
                 password.ForeColor = Color.Black;
             }
         }
+
+       
     }
 }
